@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4652BD0222D2DEE00DC785D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4652BCF222D2DEE00DC785D /* HomeCollectionViewCell.swift */; };
+		E4652BD2222D3F5700DC785D /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4652BD1222D3F5700DC785D /* Second.storyboard */; };
 		E48CD276222BD54100C15731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD275222BD54100C15731 /* AppDelegate.swift */; };
 		E48CD278222BD54100C15731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD277222BD54100C15731 /* ViewController.swift */; };
 		E48CD27B222BD54100C15731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48CD279222BD54100C15731 /* Main.storyboard */; };
 		E48CD27E222BD54100C15731 /* Mashagel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48CD27C222BD54100C15731 /* Mashagel.xcdatamodeld */; };
 		E48CD280222BD54700C15731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48CD27F222BD54700C15731 /* Assets.xcassets */; };
 		E48CD283222BD54700C15731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48CD281222BD54700C15731 /* LaunchScreen.storyboard */; };
+		E48CD28B222C222F00C15731 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD28A222C222F00C15731 /* HomeViewController.swift */; };
+		E48CD28D222D19F700C15731 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD28C222D19F700C15731 /* NotificationViewController.swift */; };
+		E48CD28F222D1B6A00C15731 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD28E222D1B6900C15731 /* NotificationsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4652BCF222D2DEE00DC785D /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		E4652BD1222D3F5700DC785D /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		E48CD272222BD54100C15731 /* Mashagel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mashagel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48CD275222BD54100C15731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48CD277222BD54100C15731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		E48CD27F222BD54700C15731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48CD282222BD54700C15731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E48CD284222BD54700C15731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48CD28A222C222F00C15731 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E48CD28C222D19F700C15731 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		E48CD28E222D1B6900C15731 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				E48CD281222BD54700C15731 /* LaunchScreen.storyboard */,
 				E48CD284222BD54700C15731 /* Info.plist */,
 				E48CD27C222BD54100C15731 /* Mashagel.xcdatamodeld */,
+				E48CD28A222C222F00C15731 /* HomeViewController.swift */,
+				E48CD28C222D19F700C15731 /* NotificationViewController.swift */,
+				E48CD28E222D1B6900C15731 /* NotificationsTableViewCell.swift */,
+				E4652BCF222D2DEE00DC785D /* HomeCollectionViewCell.swift */,
+				E4652BD1222D3F5700DC785D /* Second.storyboard */,
 			);
 			path = Mashagel;
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4652BD2222D3F5700DC785D /* Second.storyboard in Resources */,
 				E48CD283222BD54700C15731 /* LaunchScreen.storyboard in Resources */,
 				E48CD280222BD54700C15731 /* Assets.xcassets in Resources */,
 				E48CD27B222BD54100C15731 /* Main.storyboard in Resources */,
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4652BD0222D2DEE00DC785D /* HomeCollectionViewCell.swift in Sources */,
+				E48CD28F222D1B6A00C15731 /* NotificationsTableViewCell.swift in Sources */,
+				E48CD28D222D19F700C15731 /* NotificationViewController.swift in Sources */,
 				E48CD278222BD54100C15731 /* ViewController.swift in Sources */,
 				E48CD276222BD54100C15731 /* AppDelegate.swift in Sources */,
 				E48CD27E222BD54100C15731 /* Mashagel.xcdatamodeld in Sources */,
+				E48CD28B222C222F00C15731 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
