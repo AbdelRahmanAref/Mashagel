@@ -7,33 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A35D088DCFCA9DCB39150C /* Pods_Mashagel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA964A4BBE0FC82743F602B2 /* Pods_Mashagel.framework */; };
+		E44A188E222FD8860050749C /* third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44A188D222FD8850050749C /* third.storyboard */; };
+		E44A1890222FDF4C0050749C /* DetailedAdressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A188F222FDF4C0050749C /* DetailedAdressViewController.swift */; };
+		E44A1892222FEB9C0050749C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A1891222FEB9C0050749C /* SearchViewController.swift */; };
+		E44A1894222FEBB70050749C /* SalonDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A1893222FEBB70050749C /* SalonDataViewController.swift */; };
+		E44A1896222FEBD20050749C /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A1895222FEBD20050749C /* UserDataViewController.swift */; };
+		E44A1898223002640050749C /* MyReservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A1897223002640050749C /* MyReservationsViewController.swift */; };
+		E44A189A2230027A0050749C /* ReservationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18992230027A0050749C /* ReservationDetailsViewController.swift */; };
+		E44A189C2230028E0050749C /* OrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A189B2230028E0050749C /* OrderSummaryViewController.swift */; };
+		E44A189E223002A50050749C /* BeutyCentersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A189D223002A50050749C /* BeutyCentersViewController.swift */; };
+		E44A18A0223002C20050749C /* CustomersFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A189F223002C20050749C /* CustomersFeedbackViewController.swift */; };
+		E44A18A2223002D80050749C /* AboutCentersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18A1223002D80050749C /* AboutCentersViewController.swift */; };
+		E44A18A4223002E70050749C /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18A3223002E70050749C /* OffersViewController.swift */; };
+		E44A18A6223003000050749C /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18A5223003000050749C /* ServicesViewController.swift */; };
+		E44A18AA2230092B0050749C /* MyReservationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18A92230092B0050749C /* MyReservationsTableViewCell.swift */; };
+		E44A18AC2230094A0050749C /* ReservationDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18AB2230094A0050749C /* ReservationDetailsTableViewCell.swift */; };
+		E44A18AE2230095F0050749C /* OrderSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18AD2230095F0050749C /* OrderSummaryTableViewCell.swift */; };
+		E44A18B0223009740050749C /* BeutyCentersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18AF223009740050749C /* BeutyCentersTableViewCell.swift */; };
+		E44A18B22230098C0050749C /* CustomersFeedbackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18B12230098C0050749C /* CustomersFeedbackTableViewCell.swift */; };
+		E44A18B4223009AA0050749C /* AboutCentersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18B3223009AA0050749C /* AboutCentersTableViewCell.swift */; };
+		E44A18B6223009C80050749C /* OffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18B5223009C80050749C /* OffersTableViewCell.swift */; };
+		E44A18B8223009D30050749C /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A18B7223009D30050749C /* ServicesTableViewCell.swift */; };
+		E457B5D4222EA99D00CB9506 /* SalonHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457B5D3222EA99D00CB9506 /* SalonHomeViewController.swift */; };
+		E457B5D6222EAA6000CB9506 /* SalonHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457B5D5222EAA6000CB9506 /* SalonHomeViewCell.swift */; };
+		E457B5D8222EC2F200CB9506 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E457B5D7222EC2F200CB9506 /* iOSDropDown.framework */; };
+		E457B5DA222EC3C700CB9506 /* SalonCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457B5D9222EC3C700CB9506 /* SalonCartViewController.swift */; };
+		E457B5DC222FC20D00CB9506 /* SalonCartViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457B5DB222FC20C00CB9506 /* SalonCartViewCell.swift */; };
 		E4652BD0222D2DEE00DC785D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4652BCF222D2DEE00DC785D /* HomeCollectionViewCell.swift */; };
 		E4652BD2222D3F5700DC785D /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4652BD1222D3F5700DC785D /* Second.storyboard */; };
+		E47E6FCE222E8174001D78C1 /* EvaluationAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E6FCD222E8174001D78C1 /* EvaluationAlertView.swift */; };
 		E48CD276222BD54100C15731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD275222BD54100C15731 /* AppDelegate.swift */; };
 		E48CD278222BD54100C15731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD277222BD54100C15731 /* ViewController.swift */; };
 		E48CD27B222BD54100C15731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48CD279222BD54100C15731 /* Main.storyboard */; };
-		E48CD27E222BD54100C15731 /* Mashagel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48CD27C222BD54100C15731 /* Mashagel.xcdatamodeld */; };
 		E48CD280222BD54700C15731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48CD27F222BD54700C15731 /* Assets.xcassets */; };
 		E48CD283222BD54700C15731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48CD281222BD54700C15731 /* LaunchScreen.storyboard */; };
 		E48CD28B222C222F00C15731 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD28A222C222F00C15731 /* HomeViewController.swift */; };
 		E48CD28D222D19F700C15731 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD28C222D19F700C15731 /* NotificationViewController.swift */; };
 		E48CD28F222D1B6A00C15731 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CD28E222D1B6900C15731 /* NotificationsTableViewCell.swift */; };
+		E4E41D38222E603C00582982 /* TopBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E41D37222E603C00582982 /* TopBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262165C0E19F1F97F14A34DD /* Pods-Mashagel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mashagel.release.xcconfig"; path = "Target Support Files/Pods-Mashagel/Pods-Mashagel.release.xcconfig"; sourceTree = "<group>"; };
+		A042F20FC2F561DEAF5E2FB3 /* Pods-Mashagel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mashagel.debug.xcconfig"; path = "Target Support Files/Pods-Mashagel/Pods-Mashagel.debug.xcconfig"; sourceTree = "<group>"; };
+		DA964A4BBE0FC82743F602B2 /* Pods_Mashagel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mashagel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44A188D222FD8850050749C /* third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = third.storyboard; sourceTree = "<group>"; };
+		E44A188F222FDF4C0050749C /* DetailedAdressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedAdressViewController.swift; sourceTree = "<group>"; };
+		E44A1891222FEB9C0050749C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E44A1893222FEBB70050749C /* SalonDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonDataViewController.swift; sourceTree = "<group>"; };
+		E44A1895222FEBD20050749C /* UserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
+		E44A1897223002640050749C /* MyReservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReservationsViewController.swift; sourceTree = "<group>"; };
+		E44A18992230027A0050749C /* ReservationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailsViewController.swift; sourceTree = "<group>"; };
+		E44A189B2230028E0050749C /* OrderSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryViewController.swift; sourceTree = "<group>"; };
+		E44A189D223002A50050749C /* BeutyCentersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeutyCentersViewController.swift; sourceTree = "<group>"; };
+		E44A189F223002C20050749C /* CustomersFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersFeedbackViewController.swift; sourceTree = "<group>"; };
+		E44A18A1223002D80050749C /* AboutCentersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCentersViewController.swift; sourceTree = "<group>"; };
+		E44A18A3223002E70050749C /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		E44A18A5223003000050749C /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		E44A18A92230092B0050749C /* MyReservationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReservationsTableViewCell.swift; sourceTree = "<group>"; };
+		E44A18AB2230094A0050749C /* ReservationDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		E44A18AD2230095F0050749C /* OrderSummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		E44A18AF223009740050749C /* BeutyCentersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeutyCentersTableViewCell.swift; sourceTree = "<group>"; };
+		E44A18B12230098C0050749C /* CustomersFeedbackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersFeedbackTableViewCell.swift; sourceTree = "<group>"; };
+		E44A18B3223009AA0050749C /* AboutCentersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCentersTableViewCell.swift; sourceTree = "<group>"; };
+		E44A18B5223009C80050749C /* OffersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTableViewCell.swift; sourceTree = "<group>"; };
+		E44A18B7223009D30050749C /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		E457B5D3222EA99D00CB9506 /* SalonHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonHomeViewController.swift; sourceTree = "<group>"; };
+		E457B5D5222EAA6000CB9506 /* SalonHomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonHomeViewCell.swift; sourceTree = "<group>"; };
+		E457B5D7222EC2F200CB9506 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E457B5D9222EC3C700CB9506 /* SalonCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonCartViewController.swift; sourceTree = "<group>"; };
+		E457B5DB222FC20C00CB9506 /* SalonCartViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonCartViewCell.swift; sourceTree = "<group>"; };
 		E4652BCF222D2DEE00DC785D /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		E4652BD1222D3F5700DC785D /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		E47E6FCD222E8174001D78C1 /* EvaluationAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationAlertView.swift; sourceTree = "<group>"; };
 		E48CD272222BD54100C15731 /* Mashagel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mashagel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48CD275222BD54100C15731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48CD277222BD54100C15731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E48CD27A222BD54100C15731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E48CD27D222BD54100C15731 /* Mashagel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mashagel.xcdatamodel; sourceTree = "<group>"; };
 		E48CD27F222BD54700C15731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48CD282222BD54700C15731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E48CD284222BD54700C15731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E48CD28A222C222F00C15731 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E48CD28C222D19F700C15731 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		E48CD28E222D1B6900C15731 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		E4E41D37222E603C00582982 /* TopBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +99,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E457B5D8222EC2F200CB9506 /* iOSDropDown.framework in Frameworks */,
+				21A35D088DCFCA9DCB39150C /* Pods_Mashagel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F84B10CA6585D3601BF1B3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A042F20FC2F561DEAF5E2FB3 /* Pods-Mashagel.debug.xcconfig */,
+				262165C0E19F1F97F14A34DD /* Pods-Mashagel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89456353680F7899281568EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E457B5D7222EC2F200CB9506 /* iOSDropDown.framework */,
+				DA964A4BBE0FC82743F602B2 /* Pods_Mashagel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E48CD269222BD54000C15731 = {
 			isa = PBXGroup;
 			children = (
 				E48CD274222BD54100C15731 /* Mashagel */,
 				E48CD273222BD54100C15731 /* Products */,
+				2F84B10CA6585D3601BF1B3B /* Pods */,
+				89456353680F7899281568EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,12 +152,38 @@
 				E48CD27F222BD54700C15731 /* Assets.xcassets */,
 				E48CD281222BD54700C15731 /* LaunchScreen.storyboard */,
 				E48CD284222BD54700C15731 /* Info.plist */,
-				E48CD27C222BD54100C15731 /* Mashagel.xcdatamodeld */,
 				E48CD28A222C222F00C15731 /* HomeViewController.swift */,
 				E48CD28C222D19F700C15731 /* NotificationViewController.swift */,
 				E48CD28E222D1B6900C15731 /* NotificationsTableViewCell.swift */,
 				E4652BCF222D2DEE00DC785D /* HomeCollectionViewCell.swift */,
 				E4652BD1222D3F5700DC785D /* Second.storyboard */,
+				E4E41D37222E603C00582982 /* TopBarViewController.swift */,
+				E47E6FCD222E8174001D78C1 /* EvaluationAlertView.swift */,
+				E457B5D3222EA99D00CB9506 /* SalonHomeViewController.swift */,
+				E457B5D5222EAA6000CB9506 /* SalonHomeViewCell.swift */,
+				E457B5D9222EC3C700CB9506 /* SalonCartViewController.swift */,
+				E457B5DB222FC20C00CB9506 /* SalonCartViewCell.swift */,
+				E44A188D222FD8850050749C /* third.storyboard */,
+				E44A188F222FDF4C0050749C /* DetailedAdressViewController.swift */,
+				E44A1891222FEB9C0050749C /* SearchViewController.swift */,
+				E44A1893222FEBB70050749C /* SalonDataViewController.swift */,
+				E44A1895222FEBD20050749C /* UserDataViewController.swift */,
+				E44A1897223002640050749C /* MyReservationsViewController.swift */,
+				E44A18992230027A0050749C /* ReservationDetailsViewController.swift */,
+				E44A189B2230028E0050749C /* OrderSummaryViewController.swift */,
+				E44A189D223002A50050749C /* BeutyCentersViewController.swift */,
+				E44A189F223002C20050749C /* CustomersFeedbackViewController.swift */,
+				E44A18A1223002D80050749C /* AboutCentersViewController.swift */,
+				E44A18A3223002E70050749C /* OffersViewController.swift */,
+				E44A18A5223003000050749C /* ServicesViewController.swift */,
+				E44A18A92230092B0050749C /* MyReservationsTableViewCell.swift */,
+				E44A18AB2230094A0050749C /* ReservationDetailsTableViewCell.swift */,
+				E44A18AD2230095F0050749C /* OrderSummaryTableViewCell.swift */,
+				E44A18AF223009740050749C /* BeutyCentersTableViewCell.swift */,
+				E44A18B12230098C0050749C /* CustomersFeedbackTableViewCell.swift */,
+				E44A18B3223009AA0050749C /* AboutCentersTableViewCell.swift */,
+				E44A18B5223009C80050749C /* OffersTableViewCell.swift */,
+				E44A18B7223009D30050749C /* ServicesTableViewCell.swift */,
 			);
 			path = Mashagel;
 			sourceTree = "<group>";
@@ -89,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E48CD287222BD54800C15731 /* Build configuration list for PBXNativeTarget "Mashagel" */;
 			buildPhases = (
+				E1E7210813ACEF14909CAA6C /* [CP] Check Pods Manifest.lock */,
 				E48CD26E222BD54100C15731 /* Sources */,
 				E48CD26F222BD54100C15731 /* Frameworks */,
 				E48CD270222BD54100C15731 /* Resources */,
+				30147B14728D8E738909A8CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44A188E222FD8860050749C /* third.storyboard in Resources */,
 				E4652BD2222D3F5700DC785D /* Second.storyboard in Resources */,
 				E48CD283222BD54700C15731 /* LaunchScreen.storyboard in Resources */,
 				E48CD280222BD54700C15731 /* Assets.xcassets in Resources */,
@@ -149,18 +258,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30147B14728D8E738909A8CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mashagel/Pods-Mashagel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CDAlertView/CDAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mashagel/Pods-Mashagel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E7210813ACEF14909CAA6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mashagel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E48CD26E222BD54100C15731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44A1892222FEB9C0050749C /* SearchViewController.swift in Sources */,
+				E457B5D6222EAA6000CB9506 /* SalonHomeViewCell.swift in Sources */,
+				E44A1898223002640050749C /* MyReservationsViewController.swift in Sources */,
+				E44A18B6223009C80050749C /* OffersTableViewCell.swift in Sources */,
 				E4652BD0222D2DEE00DC785D /* HomeCollectionViewCell.swift in Sources */,
+				E457B5D4222EA99D00CB9506 /* SalonHomeViewController.swift in Sources */,
+				E44A18AE2230095F0050749C /* OrderSummaryTableViewCell.swift in Sources */,
+				E44A18A0223002C20050749C /* CustomersFeedbackViewController.swift in Sources */,
+				E457B5DC222FC20D00CB9506 /* SalonCartViewCell.swift in Sources */,
+				E44A18AC2230094A0050749C /* ReservationDetailsTableViewCell.swift in Sources */,
+				E44A1896222FEBD20050749C /* UserDataViewController.swift in Sources */,
+				E44A1890222FDF4C0050749C /* DetailedAdressViewController.swift in Sources */,
 				E48CD28F222D1B6A00C15731 /* NotificationsTableViewCell.swift in Sources */,
 				E48CD28D222D19F700C15731 /* NotificationViewController.swift in Sources */,
 				E48CD278222BD54100C15731 /* ViewController.swift in Sources */,
+				E44A18B0223009740050749C /* BeutyCentersTableViewCell.swift in Sources */,
+				E44A18AA2230092B0050749C /* MyReservationsTableViewCell.swift in Sources */,
+				E44A18B22230098C0050749C /* CustomersFeedbackTableViewCell.swift in Sources */,
+				E4E41D38222E603C00582982 /* TopBarViewController.swift in Sources */,
 				E48CD276222BD54100C15731 /* AppDelegate.swift in Sources */,
-				E48CD27E222BD54100C15731 /* Mashagel.xcdatamodeld in Sources */,
+				E44A189C2230028E0050749C /* OrderSummaryViewController.swift in Sources */,
+				E44A18A4223002E70050749C /* OffersViewController.swift in Sources */,
+				E44A189E223002A50050749C /* BeutyCentersViewController.swift in Sources */,
 				E48CD28B222C222F00C15731 /* HomeViewController.swift in Sources */,
+				E44A18A6223003000050749C /* ServicesViewController.swift in Sources */,
+				E44A18B4223009AA0050749C /* AboutCentersTableViewCell.swift in Sources */,
+				E44A189A2230027A0050749C /* ReservationDetailsViewController.swift in Sources */,
+				E457B5DA222EC3C700CB9506 /* SalonCartViewController.swift in Sources */,
+				E44A1894222FEBB70050749C /* SalonDataViewController.swift in Sources */,
+				E44A18B8223009D30050749C /* ServicesTableViewCell.swift in Sources */,
+				E44A18A2223002D80050749C /* AboutCentersViewController.swift in Sources */,
+				E47E6FCE222E8174001D78C1 /* EvaluationAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +487,7 @@
 		};
 		E48CD288222BD54800C15731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A042F20FC2F561DEAF5E2FB3 /* Pods-Mashagel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,6 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdelRahman.Mashagel;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,6 +507,7 @@
 		};
 		E48CD289222BD54800C15731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262165C0E19F1F97F14A34DD /* Pods-Mashagel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -332,6 +518,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdelRahman.Mashagel;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,19 +547,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E48CD27C222BD54100C15731 /* Mashagel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E48CD27D222BD54100C15731 /* Mashagel.xcdatamodel */,
-			);
-			currentVersion = E48CD27D222BD54100C15731 /* Mashagel.xcdatamodel */;
-			path = Mashagel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E48CD26A222BD54000C15731 /* Project object */;
 }

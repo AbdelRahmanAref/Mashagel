@@ -1,0 +1,988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0918E18F05D8ADA9434D5C7E2CAE6608 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9820B8A621AABDCC4768C082B2E71B93 /* error@2x.png */; };
+		09551D33423D75F7189815B65A9D2B11 /* LayoutConstraintsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276EA044F22F9C299A218C056D9CC2A /* LayoutConstraintsExtension.swift */; };
+		0C8107A95CFA07C99D4CDBC45EFF964A /* notificationFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676D58AF89B07E3D0DA0D1C6B6E6FAAA /* notificationFilled@3x.png */; };
+		0DB1ACFB5F5C98CD58BFB56FB3280C7E /* alarmOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D66F5D58D08D1B905D5FED9E43E2B2B2 /* alarmOutline@3x.png */; };
+		149843212ED2A6883F7E1D008FBE9FFD /* warningOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 257DD9196644BDE03C34C1983FF280A8 /* warningOutline@2x.png */; };
+		17FE64460E3C077AF1ABBD5376F775EA /* error@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB9F47C7F7864EFFD7F8B14B5F0A2E7 /* error@1x.png */; };
+		1D09686073A8C1204238E09E1BE75706 /* CDAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E12D7D54662D29E58E279BAC90D73F65 /* CDAlertView.bundle */; };
+		379ECABBE21FEBDF7189427CCDF63068 /* alarmFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C29A3EE15C653D1E5BF998784BADD34 /* alarmFilled@1x.png */; };
+		389946E42A999F5FB3205A93C1CC8670 /* CDAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF0E9154A4711747E4042729860E91 /* CDAlertView.swift */; };
+		45BDA0CF0E8976AE99E6EDD7B09ED4B6 /* notificationFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328787F1D4DEF2CCEFACC8ACCE84B573 /* notificationFilled@1x.png */; };
+		50E5BA3F5E374065AFB8B857EAC41771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		612A93AE57CF0154E2BA609FBEA33102 /* Pods-Mashagel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEC589294C8C1FB87FD94163FE7509A /* Pods-Mashagel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6300857F8609535F9BB81B940A52F1B5 /* warningFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA87D9F3220A522E83A851366E2CBF1 /* warningFilled@1x.png */; };
+		6860F8F69C6030164F5EFC4FD667125E /* CDAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0725CDE1E5A262D6656F150E38ECA205 /* CDAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E007A4CE5824AB688EB7C81D72DC56E /* warningOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BECD86424B9E49BBF2F41F7D5B090F2 /* warningOutline@1x.png */; };
+		70880F3CC9D1E741A276E63943F9B76F /* alarmOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E3C0873B7A2E40CD5DCC6A503141603 /* alarmOutline@1x.png */; };
+		742E932FCD5BE3DEDFEF17E11EC15DAE /* CDAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A66F28725661A070CA04831172F437C /* CDAlertView-dummy.m */; };
+		7A06649EA8985B8245A39FD970885904 /* alarmFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4033FEFCBBF025BB7166F067A0F691B7 /* alarmFilled@3x.png */; };
+		86631F01FE165F2DC17B3E3C6CFCC6A7 /* alarmOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B0B5D195377A701EBEAA63907C1FCF /* alarmOutline@2x.png */; };
+		8B64B6704590B42A83EFC8F76AA7A398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		8B7DB65A2B77A9E6C50AEB461B6C2C5B /* check@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48CEF01B334B97465115804316F28EA2 /* check@1x.png */; };
+		8B884B4A2FD4D559B875D34B8722B891 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35DB8205799F20D8D5872ADD369F82F /* ImageHelper.swift */; };
+		8C9DE775A7EC8C1AAD235B4F11CE8704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		8E11A852D4A63BA482E4021E146F06F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		912296ADDB7F71A6CC1658DE7405A95D /* check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40DE3593C38F57A7987F0925CDED371 /* check@3x.png */; };
+		9FD996F8A482D6BDE20E1C575C32E400 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CFA493BB389B3D251A3511C6D866A7 /* iOSDropDown.swift */; };
+		A5E73FAFFCF5B20B7EE19B570769F0AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		A86E1206BB76DE748C3C00D8BCB1029D /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89DAB4187F470B7231B6A2EBD2031A02 /* check@2x.png */; };
+		B1417C85FD27BF5BD96295A9A1BC1CF8 /* Pods-Mashagel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B27792E9101C97EEE14F5117615B651D /* Pods-Mashagel-dummy.m */; };
+		BA5F263E0AEE291428EFA08657BDC0C3 /* notificationOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA3C4EE326E5C631FAFB869B8E2B746 /* notificationOutline@1x.png */; };
+		BAFCD61B28203D14F749AB0DF1DC7312 /* notificationFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDD04D00CFD35E36842B4C084BF75DE /* notificationFilled@2x.png */; };
+		BEB8881FEEF4844A6E416F894FE3048C /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B5D551AD788CFB1313E54B96EB5CFF /* iOSDropDown-dummy.m */; };
+		CEFF4FB537A53B6EBB1B6089B8317BA0 /* warningOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D78A94EBC5E6ABCB742C1C70A73E249B /* warningOutline@3x.png */; };
+		D6A3C5FD3D76BAE9154BE95B2A6F767F /* notificationOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311C58AF3F426EFDCDABC3D82B8EE3D /* notificationOutline@3x.png */; };
+		D9C614DC169CA09A55340ED37DBC915D /* notificationOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1E47E0D885576BFE02ED28B9861EC /* notificationOutline@2x.png */; };
+		DE32FD7CB4D1E5CBCAD4652E8DFE4B33 /* warningFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E567BB1DF711E968B5374900A7E72C /* warningFilled@3x.png */; };
+		ED6FE4432E3A277D2173A0CBEFEAD9B9 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F79C9E916A277D5AD6D883E5345FB156 /* error@3x.png */; };
+		F0B2F76938DD3CD9C2678E77D74C0BFA /* CDAlertHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACD98F990455CD4D86251E94AAADDC /* CDAlertHeaderView.swift */; };
+		F2D3A0C953BCBCFDF171BD6003D01E91 /* warningFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FD9AB4236985ABDDF530E326E7A112E /* warningFilled@2x.png */; };
+		FB30F22D89F82BBD61BCDB80E424EEA6 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D630FB77DEC304E5500E38B48D1C15C /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD100F9220EA3E33807739E8A09FE2F /* alarmFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE1359CF1CBCB943D1F1ED1ACE29D4 /* alarmFilled@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EB73D588A5A189D796DC70A03DC0413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608F1CD0B249CC0C4735DB58E63EA9B8;
+			remoteInfo = "CDAlertView-CDAlertView";
+		};
+		9D701D1A46EB9CDBB1D35E2AA0E88A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD23C66229D6A6F23D99F848E6944DF9;
+			remoteInfo = CDAlertView;
+		};
+		F4958B616F93FD1EBA3DFEB6C8432052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E29815438EA66488EB43E51F3274C5E;
+			remoteInfo = iOSDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0143C060ACD31F6818AD46BC7FD97249 /* Pods-Mashagel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mashagel-acknowledgements.plist"; sourceTree = "<group>"; };
+		017A4E806B6C9CA50CEDB7066EA327CA /* CDAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E567BB1DF711E968B5374900A7E72C /* warningFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@3x.png"; path = "CDAlertView/Resources/Assets/warningFilled@3x.png"; sourceTree = "<group>"; };
+		05B5D551AD788CFB1313E54B96EB5CFF /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		068C1C9E3059AD4982C991EBAF04C9D7 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		0725CDE1E5A262D6656F150E38ECA205 /* CDAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDAlertView-umbrella.h"; sourceTree = "<group>"; };
+		10CD2DE649C8066054A254AE42560510 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		1BECD86424B9E49BBF2F41F7D5B090F2 /* warningOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@1x.png"; path = "CDAlertView/Resources/Assets/warningOutline@1x.png"; sourceTree = "<group>"; };
+		2311C58AF3F426EFDCDABC3D82B8EE3D /* notificationOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@3x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@3x.png"; sourceTree = "<group>"; };
+		257DD9196644BDE03C34C1983FF280A8 /* warningOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@2x.png"; path = "CDAlertView/Resources/Assets/warningOutline@2x.png"; sourceTree = "<group>"; };
+		2AB9F47C7F7864EFFD7F8B14B5F0A2E7 /* error@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@1x.png"; path = "CDAlertView/Resources/Assets/error@1x.png"; sourceTree = "<group>"; };
+		2B420340F91C77104A1463A085B78F01 /* CDAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDAlertView.modulemap; sourceTree = "<group>"; };
+		328787F1D4DEF2CCEFACC8ACCE84B573 /* notificationFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@1x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@1x.png"; sourceTree = "<group>"; };
+		381449CA76DA75E80380B0D1651B7BFD /* Pods-Mashagel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mashagel-Info.plist"; sourceTree = "<group>"; };
+		4033FEFCBBF025BB7166F067A0F691B7 /* alarmFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@3x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@3x.png"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48CEF01B334B97465115804316F28EA2 /* check@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@1x.png"; path = "CDAlertView/Resources/Assets/check@1x.png"; sourceTree = "<group>"; };
+		4A66F28725661A070CA04831172F437C /* CDAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDAlertView-dummy.m"; sourceTree = "<group>"; };
+		635DEA36CA57665E62F836C5EEBEAC3E /* Pods-Mashagel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mashagel.debug.xcconfig"; sourceTree = "<group>"; };
+		676D58AF89B07E3D0DA0D1C6B6E6FAAA /* notificationFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@3x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@3x.png"; sourceTree = "<group>"; };
+		6E3C0873B7A2E40CD5DCC6A503141603 /* alarmOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@1x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@1x.png"; sourceTree = "<group>"; };
+		6FD9AB4236985ABDDF530E326E7A112E /* warningFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@2x.png"; path = "CDAlertView/Resources/Assets/warningFilled@2x.png"; sourceTree = "<group>"; };
+		73BE1359CF1CBCB943D1F1ED1ACE29D4 /* alarmFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@2x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@2x.png"; sourceTree = "<group>"; };
+		7D630FB77DEC304E5500E38B48D1C15C /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
+		7DCB1F5B2939997A462BAC8D377719D4 /* CDAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDAlertView.xcconfig; sourceTree = "<group>"; };
+		89DAB4187F470B7231B6A2EBD2031A02 /* check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@2x.png"; path = "CDAlertView/Resources/Assets/check@2x.png"; sourceTree = "<group>"; };
+		8B110661004C417A257EA4ABC609FAAC /* ResourceBundle-CDAlertView-CDAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CDAlertView-CDAlertView-Info.plist"; sourceTree = "<group>"; };
+		8BDD04D00CFD35E36842B4C084BF75DE /* notificationFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@2x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@2x.png"; sourceTree = "<group>"; };
+		91AF0E9154A4711747E4042729860E91 /* CDAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertView.swift; path = CDAlertView/Classes/CDAlertView.swift; sourceTree = "<group>"; };
+		9820B8A621AABDCC4768C082B2E71B93 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "CDAlertView/Resources/Assets/error@2x.png"; sourceTree = "<group>"; };
+		99381D7144479FEF1E11456B9A68AC96 /* Pods_Mashagel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mashagel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C29A3EE15C653D1E5BF998784BADD34 /* alarmFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@1x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@1x.png"; sourceTree = "<group>"; };
+		9CB6464B464B260CB1B097607711D090 /* Pods-Mashagel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mashagel.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA87D9F3220A522E83A851366E2CBF1 /* warningFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@1x.png"; path = "CDAlertView/Resources/Assets/warningFilled@1x.png"; sourceTree = "<group>"; };
+		9FD3B36570E7DC24B4BF9F441E1E8D71 /* Pods-Mashagel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mashagel-frameworks.sh"; sourceTree = "<group>"; };
+		B25B253AF26CB12B1CDB1F12294061A3 /* iOSDropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.xcconfig; sourceTree = "<group>"; };
+		B27792E9101C97EEE14F5117615B651D /* Pods-Mashagel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mashagel-dummy.m"; sourceTree = "<group>"; };
+		B3B1E47E0D885576BFE02ED28B9861EC /* notificationOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@2x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@2x.png"; sourceTree = "<group>"; };
+		B4CFA493BB389B3D251A3511C6D866A7 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
+		B5CA836C7352FB4B3DDF4B4F77D9D2AE /* Pods-Mashagel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mashagel.release.xcconfig"; sourceTree = "<group>"; };
+		BAACD98F990455CD4D86251E94AAADDC /* CDAlertHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertHeaderView.swift; path = CDAlertView/Classes/CDAlertHeaderView.swift; sourceTree = "<group>"; };
+		C35DB8205799F20D8D5872ADD369F82F /* ImageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = CDAlertView/Classes/ImageHelper.swift; sourceTree = "<group>"; };
+		C40DE3593C38F57A7987F0925CDED371 /* check@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@3x.png"; path = "CDAlertView/Resources/Assets/check@3x.png"; sourceTree = "<group>"; };
+		CF0DD722A374F9E8F310DCB168DDEC61 /* CDAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDAlertView-prefix.pch"; sourceTree = "<group>"; };
+		D31E1D7429C5AAD86E05A5B380A623B2 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
+		D66F5D58D08D1B905D5FED9E43E2B2B2 /* alarmOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@3x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@3x.png"; sourceTree = "<group>"; };
+		D78A94EBC5E6ABCB742C1C70A73E249B /* warningOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@3x.png"; path = "CDAlertView/Resources/Assets/warningOutline@3x.png"; sourceTree = "<group>"; };
+		E12D7D54662D29E58E279BAC90D73F65 /* CDAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDAlertView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F1B0B5D195377A701EBEAA63907C1FCF /* alarmOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@2x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@2x.png"; sourceTree = "<group>"; };
+		F276EA044F22F9C299A218C056D9CC2A /* LayoutConstraintsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintsExtension.swift; path = CDAlertView/Classes/LayoutConstraintsExtension.swift; sourceTree = "<group>"; };
+		F79C9E916A277D5AD6D883E5345FB156 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "CDAlertView/Resources/Assets/error@3x.png"; sourceTree = "<group>"; };
+		F887719AF8CB647B85C55CBF5AE4EF88 /* Pods-Mashagel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mashagel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBA3C4EE326E5C631FAFB869B8E2B746 /* notificationOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@1x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@1x.png"; sourceTree = "<group>"; };
+		FCEC589294C8C1FB87FD94163FE7509A /* Pods-Mashagel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mashagel-umbrella.h"; sourceTree = "<group>"; };
+		FDBEA67EA6DAC12FD22B07E09BCB1FA8 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF00DE27FA757549E47C049B52220D99 /* CDAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDAlertView-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE882D894CDF0BA3DCF94D85982D24E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EE579A2251FC4E63AEC0881E42DB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9DE775A7EC8C1AAD235B4F11CE8704 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBFC1CE860E69955F5CE540EAC44786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E5BA3F5E374065AFB8B857EAC41771 /* Foundation.framework in Frameworks */,
+				8E11A852D4A63BA482E4021E146F06F5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB82235D02AA3FFB99A5DC4A7F5D442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B64B6704590B42A83EFC8F76AA7A398 /* Foundation.framework in Frameworks */,
+				A5E73FAFFCF5B20B7EE19B570769F0AD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FF3DB279637624537530499D5522DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12D7D54662D29E58E279BAC90D73F65 /* CDAlertView.bundle */,
+				017A4E806B6C9CA50CEDB7066EA327CA /* CDAlertView.framework */,
+				FDBEA67EA6DAC12FD22B07E09BCB1FA8 /* iOSDropDown.framework */,
+				99381D7144479FEF1E11456B9A68AC96 /* Pods_Mashagel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		247898564798D17EC314370851118980 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6DA90F154D0FAF2EDB81A1842145A4E /* CDAlertView */,
+				CE1FF8EAA5C9724BE602E8DC7F4D7B38 /* iOSDropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		525EAC2BF114A6EB3876B61C605A32C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				068C1C9E3059AD4982C991EBAF04C9D7 /* iOSDropDown.modulemap */,
+				B25B253AF26CB12B1CDB1F12294061A3 /* iOSDropDown.xcconfig */,
+				05B5D551AD788CFB1313E54B96EB5CFF /* iOSDropDown-dummy.m */,
+				D31E1D7429C5AAD86E05A5B380A623B2 /* iOSDropDown-Info.plist */,
+				10CD2DE649C8066054A254AE42560510 /* iOSDropDown-prefix.pch */,
+				7D630FB77DEC304E5500E38B48D1C15C /* iOSDropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSDropDown";
+			sourceTree = "<group>";
+		};
+		9A662262D44F3EBAACE84063EA651635 /* Pods-Mashagel */ = {
+			isa = PBXGroup;
+			children = (
+				9CB6464B464B260CB1B097607711D090 /* Pods-Mashagel.modulemap */,
+				F887719AF8CB647B85C55CBF5AE4EF88 /* Pods-Mashagel-acknowledgements.markdown */,
+				0143C060ACD31F6818AD46BC7FD97249 /* Pods-Mashagel-acknowledgements.plist */,
+				B27792E9101C97EEE14F5117615B651D /* Pods-Mashagel-dummy.m */,
+				9FD3B36570E7DC24B4BF9F441E1E8D71 /* Pods-Mashagel-frameworks.sh */,
+				381449CA76DA75E80380B0D1651B7BFD /* Pods-Mashagel-Info.plist */,
+				FCEC589294C8C1FB87FD94163FE7509A /* Pods-Mashagel-umbrella.h */,
+				635DEA36CA57665E62F836C5EEBEAC3E /* Pods-Mashagel.debug.xcconfig */,
+				B5CA836C7352FB4B3DDF4B4F77D9D2AE /* Pods-Mashagel.release.xcconfig */,
+			);
+			name = "Pods-Mashagel";
+			path = "Target Support Files/Pods-Mashagel";
+			sourceTree = "<group>";
+		};
+		A40E46D7CB1EB01632BBF5B68E322F2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B420340F91C77104A1463A085B78F01 /* CDAlertView.modulemap */,
+				7DCB1F5B2939997A462BAC8D377719D4 /* CDAlertView.xcconfig */,
+				4A66F28725661A070CA04831172F437C /* CDAlertView-dummy.m */,
+				FF00DE27FA757549E47C049B52220D99 /* CDAlertView-Info.plist */,
+				CF0DD722A374F9E8F310DCB168DDEC61 /* CDAlertView-prefix.pch */,
+				0725CDE1E5A262D6656F150E38ECA205 /* CDAlertView-umbrella.h */,
+				8B110661004C417A257EA4ABC609FAAC /* ResourceBundle-CDAlertView-CDAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CDAlertView";
+			sourceTree = "<group>";
+		};
+		C6DA90F154D0FAF2EDB81A1842145A4E /* CDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BAACD98F990455CD4D86251E94AAADDC /* CDAlertHeaderView.swift */,
+				91AF0E9154A4711747E4042729860E91 /* CDAlertView.swift */,
+				C35DB8205799F20D8D5872ADD369F82F /* ImageHelper.swift */,
+				F276EA044F22F9C299A218C056D9CC2A /* LayoutConstraintsExtension.swift */,
+				C8C42848B9258A01251246B372FDB805 /* Resources */,
+				A40E46D7CB1EB01632BBF5B68E322F2E /* Support Files */,
+			);
+			path = CDAlertView;
+			sourceTree = "<group>";
+		};
+		C8C233F39678BB1788BC8E03065F1D0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A662262D44F3EBAACE84063EA651635 /* Pods-Mashagel */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8C42848B9258A01251246B372FDB805 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C29A3EE15C653D1E5BF998784BADD34 /* alarmFilled@1x.png */,
+				73BE1359CF1CBCB943D1F1ED1ACE29D4 /* alarmFilled@2x.png */,
+				4033FEFCBBF025BB7166F067A0F691B7 /* alarmFilled@3x.png */,
+				6E3C0873B7A2E40CD5DCC6A503141603 /* alarmOutline@1x.png */,
+				F1B0B5D195377A701EBEAA63907C1FCF /* alarmOutline@2x.png */,
+				D66F5D58D08D1B905D5FED9E43E2B2B2 /* alarmOutline@3x.png */,
+				48CEF01B334B97465115804316F28EA2 /* check@1x.png */,
+				89DAB4187F470B7231B6A2EBD2031A02 /* check@2x.png */,
+				C40DE3593C38F57A7987F0925CDED371 /* check@3x.png */,
+				2AB9F47C7F7864EFFD7F8B14B5F0A2E7 /* error@1x.png */,
+				9820B8A621AABDCC4768C082B2E71B93 /* error@2x.png */,
+				F79C9E916A277D5AD6D883E5345FB156 /* error@3x.png */,
+				328787F1D4DEF2CCEFACC8ACCE84B573 /* notificationFilled@1x.png */,
+				8BDD04D00CFD35E36842B4C084BF75DE /* notificationFilled@2x.png */,
+				676D58AF89B07E3D0DA0D1C6B6E6FAAA /* notificationFilled@3x.png */,
+				FBA3C4EE326E5C631FAFB869B8E2B746 /* notificationOutline@1x.png */,
+				B3B1E47E0D885576BFE02ED28B9861EC /* notificationOutline@2x.png */,
+				2311C58AF3F426EFDCDABC3D82B8EE3D /* notificationOutline@3x.png */,
+				9DA87D9F3220A522E83A851366E2CBF1 /* warningFilled@1x.png */,
+				6FD9AB4236985ABDDF530E326E7A112E /* warningFilled@2x.png */,
+				02E567BB1DF711E968B5374900A7E72C /* warningFilled@3x.png */,
+				1BECD86424B9E49BBF2F41F7D5B090F2 /* warningOutline@1x.png */,
+				257DD9196644BDE03C34C1983FF280A8 /* warningOutline@2x.png */,
+				D78A94EBC5E6ABCB742C1C70A73E249B /* warningOutline@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE1FF8EAA5C9724BE602E8DC7F4D7B38 /* iOSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				B4CFA493BB389B3D251A3511C6D866A7 /* iOSDropDown.swift */,
+				525EAC2BF114A6EB3876B61C605A32C8 /* Support Files */,
+			);
+			path = iOSDropDown;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				247898564798D17EC314370851118980 /* Pods */,
+				01FF3DB279637624537530499D5522DE /* Products */,
+				C8C233F39678BB1788BC8E03065F1D0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E80A26DD46BCDD2FCD3D12429FF4876 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6860F8F69C6030164F5EFC4FD667125E /* CDAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6381B7AAC5448690324188A932A403B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB30F22D89F82BBD61BCDB80E424EEA6 /* iOSDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14774882CA6FE314467C98E191C3D91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612A93AE57CF0154E2BA609FBEA33102 /* Pods-Mashagel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		248E5CCA78505EDE9778B1EAD2905F4E /* Pods-Mashagel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94160C216921B47DB48C16F74A3AB189 /* Build configuration list for PBXNativeTarget "Pods-Mashagel" */;
+			buildPhases = (
+				C14774882CA6FE314467C98E191C3D91 /* Headers */,
+				F4D8C50F1A35A80F1EFA357E64E8E20B /* Sources */,
+				B4EE579A2251FC4E63AEC0881E42DB31 /* Frameworks */,
+				3B29E9612A3600F9ED3138AA4D844351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A72FF19F249C1ACD2633A63759AF5C /* PBXTargetDependency */,
+				BF31DF8915B4CA9A137483AC82555042 /* PBXTargetDependency */,
+			);
+			name = "Pods-Mashagel";
+			productName = "Pods-Mashagel";
+			productReference = 99381D7144479FEF1E11456B9A68AC96 /* Pods_Mashagel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		608F1CD0B249CC0C4735DB58E63EA9B8 /* CDAlertView-CDAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E981D9DDED9A639909821F3C5312D1C /* Build configuration list for PBXNativeTarget "CDAlertView-CDAlertView" */;
+			buildPhases = (
+				3A2AC71723A0B53071666DBEB575E4B6 /* Sources */,
+				AE882D894CDF0BA3DCF94D85982D24E8 /* Frameworks */,
+				EC7DA346CBED55B0548C67E93842F59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CDAlertView-CDAlertView";
+			productName = "CDAlertView-CDAlertView";
+			productReference = E12D7D54662D29E58E279BAC90D73F65 /* CDAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8E29815438EA66488EB43E51F3274C5E /* iOSDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C9BE0F3F9B7E7119C49A974977FD464 /* Build configuration list for PBXNativeTarget "iOSDropDown" */;
+			buildPhases = (
+				6381B7AAC5448690324188A932A403B1 /* Headers */,
+				63DE32ACBB3E92D76F242C8966ED319E /* Sources */,
+				FBB82235D02AA3FFB99A5DC4A7F5D442 /* Frameworks */,
+				BE337E79C9B89F83D48A045DD6BEC98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDropDown;
+			productName = iOSDropDown;
+			productReference = FDBEA67EA6DAC12FD22B07E09BCB1FA8 /* iOSDropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD23C66229D6A6F23D99F848E6944DF9 /* CDAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25336FA7D04CCB8C1A0E52DDB1446CA2 /* Build configuration list for PBXNativeTarget "CDAlertView" */;
+			buildPhases = (
+				1E80A26DD46BCDD2FCD3D12429FF4876 /* Headers */,
+				41573C6A1CC2CC42C6E5D4D8C8A85E2C /* Sources */,
+				EDBFC1CE860E69955F5CE540EAC44786 /* Frameworks */,
+				D48C903D7AFD177AAED5E475E22145C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7356FE7F7855BD1298B0F0E2FA8135D /* PBXTargetDependency */,
+			);
+			name = CDAlertView;
+			productName = CDAlertView;
+			productReference = 017A4E806B6C9CA50CEDB7066EA327CA /* CDAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					8E29815438EA66488EB43E51F3274C5E = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 01FF3DB279637624537530499D5522DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD23C66229D6A6F23D99F848E6944DF9 /* CDAlertView */,
+				608F1CD0B249CC0C4735DB58E63EA9B8 /* CDAlertView-CDAlertView */,
+				8E29815438EA66488EB43E51F3274C5E /* iOSDropDown */,
+				248E5CCA78505EDE9778B1EAD2905F4E /* Pods-Mashagel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B29E9612A3600F9ED3138AA4D844351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE337E79C9B89F83D48A045DD6BEC98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48C903D7AFD177AAED5E475E22145C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D09686073A8C1204238E09E1BE75706 /* CDAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7DA346CBED55B0548C67E93842F59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379ECABBE21FEBDF7189427CCDF63068 /* alarmFilled@1x.png in Resources */,
+				FFD100F9220EA3E33807739E8A09FE2F /* alarmFilled@2x.png in Resources */,
+				7A06649EA8985B8245A39FD970885904 /* alarmFilled@3x.png in Resources */,
+				70880F3CC9D1E741A276E63943F9B76F /* alarmOutline@1x.png in Resources */,
+				86631F01FE165F2DC17B3E3C6CFCC6A7 /* alarmOutline@2x.png in Resources */,
+				0DB1ACFB5F5C98CD58BFB56FB3280C7E /* alarmOutline@3x.png in Resources */,
+				8B7DB65A2B77A9E6C50AEB461B6C2C5B /* check@1x.png in Resources */,
+				A86E1206BB76DE748C3C00D8BCB1029D /* check@2x.png in Resources */,
+				912296ADDB7F71A6CC1658DE7405A95D /* check@3x.png in Resources */,
+				17FE64460E3C077AF1ABBD5376F775EA /* error@1x.png in Resources */,
+				0918E18F05D8ADA9434D5C7E2CAE6608 /* error@2x.png in Resources */,
+				ED6FE4432E3A277D2173A0CBEFEAD9B9 /* error@3x.png in Resources */,
+				45BDA0CF0E8976AE99E6EDD7B09ED4B6 /* notificationFilled@1x.png in Resources */,
+				BAFCD61B28203D14F749AB0DF1DC7312 /* notificationFilled@2x.png in Resources */,
+				0C8107A95CFA07C99D4CDBC45EFF964A /* notificationFilled@3x.png in Resources */,
+				BA5F263E0AEE291428EFA08657BDC0C3 /* notificationOutline@1x.png in Resources */,
+				D9C614DC169CA09A55340ED37DBC915D /* notificationOutline@2x.png in Resources */,
+				D6A3C5FD3D76BAE9154BE95B2A6F767F /* notificationOutline@3x.png in Resources */,
+				6300857F8609535F9BB81B940A52F1B5 /* warningFilled@1x.png in Resources */,
+				F2D3A0C953BCBCFDF171BD6003D01E91 /* warningFilled@2x.png in Resources */,
+				DE32FD7CB4D1E5CBCAD4652E8DFE4B33 /* warningFilled@3x.png in Resources */,
+				6E007A4CE5824AB688EB7C81D72DC56E /* warningOutline@1x.png in Resources */,
+				149843212ED2A6883F7E1D008FBE9FFD /* warningOutline@2x.png in Resources */,
+				CEFF4FB537A53B6EBB1B6089B8317BA0 /* warningOutline@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2AC71723A0B53071666DBEB575E4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41573C6A1CC2CC42C6E5D4D8C8A85E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B2F76938DD3CD9C2678E77D74C0BFA /* CDAlertHeaderView.swift in Sources */,
+				742E932FCD5BE3DEDFEF17E11EC15DAE /* CDAlertView-dummy.m in Sources */,
+				389946E42A999F5FB3205A93C1CC8670 /* CDAlertView.swift in Sources */,
+				8B884B4A2FD4D559B875D34B8722B891 /* ImageHelper.swift in Sources */,
+				09551D33423D75F7189815B65A9D2B11 /* LayoutConstraintsExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DE32ACBB3E92D76F242C8966ED319E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB8881FEEF4844A6E416F894FE3048C /* iOSDropDown-dummy.m in Sources */,
+				9FD996F8A482D6BDE20E1C575C32E400 /* iOSDropDown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D8C50F1A35A80F1EFA357E64E8E20B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1417C85FD27BF5BD96295A9A1BC1CF8 /* Pods-Mashagel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A72FF19F249C1ACD2633A63759AF5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDAlertView;
+			target = DD23C66229D6A6F23D99F848E6944DF9 /* CDAlertView */;
+			targetProxy = 9D701D1A46EB9CDBB1D35E2AA0E88A0A /* PBXContainerItemProxy */;
+		};
+		BF31DF8915B4CA9A137483AC82555042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 8E29815438EA66488EB43E51F3274C5E /* iOSDropDown */;
+			targetProxy = F4958B616F93FD1EBA3DFEB6C8432052 /* PBXContainerItemProxy */;
+		};
+		C7356FE7F7855BD1298B0F0E2FA8135D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CDAlertView-CDAlertView";
+			target = 608F1CD0B249CC0C4735DB58E63EA9B8 /* CDAlertView-CDAlertView */;
+			targetProxy = 1EB73D588A5A189D796DC70A03DC0413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		188774412D5ABC0948588D7547A26E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CA836C7352FB4B3DDF4B4F77D9D2AE /* Pods-Mashagel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mashagel/Pods-Mashagel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mashagel/Pods-Mashagel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5226DF26B47A15D0FC238E3BAF387719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCB1F5B2939997A462BAC8D377719D4 /* CDAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDAlertView";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/ResourceBundle-CDAlertView-CDAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6CC3B6DCEE2652B17D9F69DCEDB6FA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25B253AF26CB12B1CDB1F12294061A3 /* iOSDropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75B71C22B9186439A476EAAD184A5D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCB1F5B2939997A462BAC8D377719D4 /* CDAlertView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDAlertView/CDAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/CDAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDAlertView/CDAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CDAlertView;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EDDB3B77C43CC02C80CFEFEA1A13387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25B253AF26CB12B1CDB1F12294061A3 /* iOSDropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D88BFA3B2A1DA5850C0C4874A8CEA14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCB1F5B2939997A462BAC8D377719D4 /* CDAlertView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDAlertView/CDAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/CDAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDAlertView/CDAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CDAlertView;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9077D1E3B2C16B2F01670F3B2C3E945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635DEA36CA57665E62F836C5EEBEAC3E /* Pods-Mashagel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mashagel/Pods-Mashagel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mashagel/Pods-Mashagel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE5872CDA4CC3F74690D5E540C23B368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCB1F5B2939997A462BAC8D377719D4 /* CDAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDAlertView";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/ResourceBundle-CDAlertView-CDAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C9BE0F3F9B7E7119C49A974977FD464 /* Build configuration list for PBXNativeTarget "iOSDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC3B6DCEE2652B17D9F69DCEDB6FA8E /* Debug */,
+				7EDDB3B77C43CC02C80CFEFEA1A13387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25336FA7D04CCB8C1A0E52DDB1446CA2 /* Build configuration list for PBXNativeTarget "CDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88BFA3B2A1DA5850C0C4874A8CEA14E /* Debug */,
+				75B71C22B9186439A476EAAD184A5D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E981D9DDED9A639909821F3C5312D1C /* Build configuration list for PBXNativeTarget "CDAlertView-CDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5226DF26B47A15D0FC238E3BAF387719 /* Debug */,
+				FE5872CDA4CC3F74690D5E540C23B368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94160C216921B47DB48C16F74A3AB189 /* Build configuration list for PBXNativeTarget "Pods-Mashagel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9077D1E3B2C16B2F01670F3B2C3E945 /* Debug */,
+				188774412D5ABC0948588D7547A26E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

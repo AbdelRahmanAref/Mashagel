@@ -11,6 +11,8 @@ import UIKit
 class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
     let homeCellId = "homeCell"
+    let homeItemArray = ["إضافة موظف", "أوقات الدوام", "الطلبات الواردة", "بيانات السنتر"]
+    let homeItemIconsArray = ["dwamTime.png", "addEmployer.png", "centerData.png", "centerDetails.png"]
 
     @IBOutlet weak var collectionView: UICollectionView!
 
@@ -24,7 +26,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         collectionView.delegate = self
         collectionView.dataSource = self
         flowLayout.scrollDirection = .vertical
-        flowLayout.minimumLineSpacing = 0
+        flowLayout.minimumLineSpacing = 10
         flowLayout.minimumInteritemSpacing = 0
         flowLayout.sectionInset = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
 
@@ -42,8 +44,13 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: homeCellId, for: indexPath) as! HomeCollectionViewCell
-        cell.homeLabel.text = "أوقات الدوام"
-        cell.homeIcon.image = UIImage(named: "dwamTime.png")
+        cell.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+        cell.layer.borderWidth = 0.2
+        cell.layer.cornerRadius = 8
+        cell.clipsToBounds = true
+
+        cell.homeLabel.text = homeItemArray[indexPath.row]
+        cell.homeIcon.image = UIImage(named: "\(homeItemIconsArray[indexPath.row])")
         return cell
     }
 

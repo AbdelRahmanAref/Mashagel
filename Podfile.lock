@@ -1,0 +1,20 @@
+PODS:
+  - CDAlertView (0.9.1)
+  - iOSDropDown (0.2.7)
+
+DEPENDENCIES:
+  - CDAlertView
+  - iOSDropDown
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CDAlertView
+    - iOSDropDown
+
+SPEC CHECKSUMS:
+  CDAlertView: 89450acbd8d882868f2fc4ec6d2b6f128710c779
+  iOSDropDown: 7a4cfc67d5166f319858747b63cd2f7760c4fb4b
+
+PODFILE CHECKSUM: c012e81cb99cc28bc13857b092da2987460c84b9
+
+COCOAPODS: 1.6.0
